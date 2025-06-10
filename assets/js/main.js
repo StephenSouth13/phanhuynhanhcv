@@ -128,7 +128,7 @@
   });
 
   /**
-   * Init isotope layout and filters
+   * Init isotope layout and filters and fit images
    */
   document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
     let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';

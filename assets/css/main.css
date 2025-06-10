@@ -1142,6 +1142,14 @@ section,
   margin-top: 20px;
   position: relative;
 }
+.portfolio-content img {
+  margin-top: 5px;
+  width: 100%; /* Đặt chiều rộng bằng 100% của khung chứa */
+  height: 200px; /* Đặt chiều cao cố định để tất cả hình ảnh có cùng chiều cao */
+  object-fit: cover; /* Đảm bảo hình ảnh đầy đủ khung mà không bị biến dạng */
+  border-radius: 5px; /* Bo góc cho hình ảnh */
+}
+
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
@@ -1191,6 +1199,7 @@ section,
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
+
 
 /*--------------------------------------------------------------
 # Service Details Section
@@ -1257,9 +1266,3 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}

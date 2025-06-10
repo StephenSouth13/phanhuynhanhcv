@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Quach Thanh Long</title>
+  <title>Dịch Vụ Của Chúng Tôi</title>
+  <meta content="Thông tin về các dịch vụ mà Tiến sĩ Phan Huỳnh Anh cung cấp" name="description">
+  <meta content="Phan Huỳnh Anh, dịch vụ, giáo dục, mentoring" name="keywords">
 
-  <!-- Favicon -->
+  <!-- Favicons -->
   <link href="assets/img/msc.EDU.VN.png" rel="icon">
   <link href="assets/img/msc.EDU.VN.png" rel="apple-touch-icon">
 
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
-  <!-- Google Font: Montserrat only -->
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,54 +26,37 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
 </head>
 
-
-<body class="index-page">
+<body class="service-details-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/PROFILE.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/PROFILE.jpg" alt="Phan Huỳnh Anh" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Quach Thanh Long</h1>
+      <h1 class="sitename">Phan Huỳnh Anh</h1>
     </a>
 
     <div class="social-links text-center">
-      <a href="https://x.com/SouthSteph1307"><i class="bi bi-twitter-x"></i></a>
-      <a href="https://www.facebook.com/long.quach.273823"><i class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com/longquach130723/"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/quach-long-338018274/"><i class="bi bi-linkedin"></i></a>
+      <a href="https://twitter.com/PhanHuynhAnh"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/phanhuynhanh"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/phanhuynhanh/"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/phanhuynhanh/"><i class="bi bi-linkedin"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i>Back to Portfolio</a></li>
-
-        <!--<li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li> -->
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="#hero"><i class="bi bi-house navicon"></i>Trang chủ</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> Giới thiệu</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Hồ sơ</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Dự án</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Dịch vụ</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Liên hệ</a></li>
       </ul>
     </nav>
 
@@ -85,89 +67,59 @@
     <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <h1 class="mb-2 mb-lg-0">Chi Tiết Dịch Vụ</h1>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li class="current">Chi Tiết Dịch Vụ</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
-
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
-
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#" class="active">Đào Tạo Kỹ Năng</a>
+              <a href="#">Tư Vấn Khởi Nghiệp</a>
+              <a href="#">Mentoring Doanh Nghiệp</a>
+              <a href="#">Marketing và Xây Dựng Thương Hiệu</a>
             </div>
+
+            <h4>Chương Trình Học Tập</h4>
+            <p>Chương trình đào tạo thực tiễn cho sinh viên và doanh nghiệp.</p>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 18 March, 2025</li>
-                <li><strong>Project URL</strong>: <a href="stephensouth1307@gmail.com">stephensouth1307@gmail.com</a></li>
-                <li><strong>Demo on website</strong>: <a href="https://stephensouth13.github.io/hoichogiaoduchto/">https://stephensouth13.github.io/hoichogiaoduchto/</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services.jpg" alt="Dịch Vụ" class="img-fluid services-img">
+            <h3>Viện Smentor - Trung Tâm Kỹ Năng Mekong</h3>
+            <p>
+              Nâng cao và tái đào tạo kỹ năng cho khu vực Mekong.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Cung cấp các khóa học thực hành.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Hỗ trợ tư vấn cho các doanh nghiệp khởi nghiệp.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Phát triển kỹ năng mềm cho sinh viên.</span></li>
+            </ul>
+            <p>
+              Chúng tôi cam kết mang đến những chương trình đào tạo chất lượng cao, phù hợp với nhu cầu thực tế của thị trường lao động. Mục tiêu của chúng tôi là giúp sinh viên và doanh nghiệp phát triển bền vững.
+            </p>
+            <p>
+              Các chương trình của chúng tôi không chỉ giúp nâng cao kiến thức mà còn phát triển kỹ năng thực hành, giúp người học tự tin hơn trong công việc và cuộc sống. Chúng tôi tin rằng, với sự hỗ trợ đúng đắn, mọi người đều có thể đạt được thành công trong sự nghiệp của mình.
+            </p>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Details Section -->
+    </section><!-- /Service Details Section -->
 
   </main>
 
@@ -175,14 +127,10 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">2025</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Bản quyền</span> <strong class="px-1 sitename">2025</strong> <span>Tất cả quyền được bảo lưu</span></p>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://www.facebook.com/vietnamstudentmarathon">VIETNAM STUDENT MARATHON</a>
+        Thiết kế bởi <a href="https://www.facebook.com/vietnamstudentmarathon">VIETNAM STUDENT MARATHON</a>
       </div>
     </div>
 
